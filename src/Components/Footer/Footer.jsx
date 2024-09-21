@@ -53,7 +53,7 @@ const Footer = () => {
   </nav>
 </footer>
 
-<footer className="footer popin-font bg-base-200 text-base-content p-10">
+<footer className="footer popin-font bg-base-200 text-base-content p-10 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
   <nav>
     <h6 className="footer-title">Product</h6>
     <a className="link link-hover">Sell</a>

@@ -8,7 +8,7 @@
         "area": "2200 sq ft",
         "location": "123 Maple Street, Springfield",
         "facilities": ["living room", "kitchen", "garden"],
-        "image": "https://example.com/single-family-home.jpg",
+        "image": "../src/assets/images/house4.jpeg",
         "view_property_button": "View Property"
     },
     {
@@ -21,7 +21,7 @@
         "area": "1800 sq ft",
         "location": "456 Elm Street, Springfield",
         "facilities": ["living room", "kitchen"],
-        "image": "https://example.com/townhouse.jpg",
+        "image": "../src/assets/images/house6.jpg",
         "view_property_button": "View Property"
     },
     {
@@ -34,7 +34,7 @@
         "area": "1500 sq ft",
         "location": "789 Oak Avenue, Downtown",
         "facilities": ["living room", "swimming pool", "kitchen"],
-        "image": "https://example.com/luxury-apartment.jpg",
+        "image": "../src/assets/images/home2.jpg",
         "view_property_button": "View Property"
     },
     {
@@ -47,7 +47,7 @@
         "area": "500 sq ft",
         "location": "321 University Lane, Campus Area",
         "facilities": ["living room", "kitchen"],
-        "image": "https://example.com/student-housing.jpg",
+        "image": "../src/assets/images/house8.jpeg",
         "view_property_button": "View Property"
     },
     {
@@ -60,7 +60,7 @@
         "area": "700 sq ft",
         "location": "654 Elder Street, Retirement Village",
         "facilities": ["living room", "kitchen", "fitness center"],
-        "image": "https://example.com/senior-living.jpg",
+        "image": "../src/assets/images/house9.jpeg",
         "view_property_button": "View Property"
     },
     {
@@ -73,7 +73,7 @@
         "area": "2500 sq ft",
         "location": "987 Seaside Drive, Beach Town",
         "facilities": ["living room", "kitchen", "deck"],
-        "image": "https://example.com/vacation-rental.jpg",
+        "image": "../src/assets/images/vacation2.jpeg",
         "view_property_button": "View Property"
     },
     {
@@ -86,7 +86,7 @@
         "area": "1500 sq ft",
         "location": "852 Pine Road, Smalltown",
         "facilities": ["living room", "kitchen", "garden"],
-        "image": "https://example.com/cottage.jpg",
+        "image": "../src/assets/images/house5.jpeg",
         "view_property_button": "View Property"
     },
     {
@@ -99,7 +99,7 @@
         "area": "2200 sq ft",
         "location": "147 Cedar Street, Greenfield",
         "facilities": ["living room", "kitchen", "garage"],
-        "image": "https://example.com/spacious-townhouse.jpg",
+        "image": "../src/assets/images/house7.jpeg",
         "view_property_button": "View Property"
     },
     {
@@ -112,7 +112,7 @@
         "area": "1600 sq ft",
         "location": "321 Historic Avenue, Oldtown",
         "facilities": ["living room", "kitchen", "rooftop terrace"],
-        "image": "https://example.com/historic-apartment.jpg",
+        "image": "../src/assets/images/home1.jpg",
         "view_property_button": "View Property"
     }
 ]

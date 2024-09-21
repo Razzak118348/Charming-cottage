@@ -17,7 +17,7 @@ const Navbar = () => {
 
 
   return (
-    <div className="navbar bg-base-100 pt-4 popin-font">
+    <div className="navbar bg-base-100 pt-4 ">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -36,16 +36,16 @@ const Navbar = () => {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow popin-font">
             {Navlink}
 
           </ul>
         </div>
-        <Link to='/' className="btn btn-ghost text-xl md:text-2xl font-extrabold   animate__backInLeft animate__delay-2s">Charming Cottage</Link>
+        <Link to='/' className="btn btn-ghost text-xl md:text-2xl lg:text-3xl font-bold animate__zoomIn  popin-font"><img className="w-8 h-8" src="/public/icon.jpeg"></img> Carming Cottage</Link>
       </div>
 
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">
+        <ul className="menu menu-horizontal px-1 popin-font">
           {Navlink}
         </ul>
       </div>

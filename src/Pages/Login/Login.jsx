@@ -1,9 +1,12 @@
+import { Helmet } from "react-helmet";
 
 
 const Login = () => {
     return (
         <div>
-
+<Helmet>
+    <title>Login | Charming Cottage</title>
+</Helmet>
         </div>
     );
 };
