@@ -1,0 +1,35 @@
+my-real-estate-website/
+├── public/
+│   └── index.html
+├── src/
+│   ├── assets/
+│   │   └── images/           # Store images (e.g., for estates)
+│   ├── components/
+│   │   ├── Navbar.jsx        # Main navigation component
+│   │   ├── Footer.jsx        # Footer component
+│   │   ├── Slider.jsx        # Home page slider component
+│   │   ├── EstateCard.jsx    # Estate card component for listing
+│   │   ├── EstateDetails.jsx # Estate details component
+│   │   ├── Profile.jsx       # User profile component
+│   │   ├── Login.jsx         # Login form component
+│   │   ├── Register.jsx      # Register form component
+│   │   └── NotFound.jsx      # 404 page component
+│   ├── context/
+│   │   └── AuthContext.js    # Firebase authentication context
+│   ├── data/
+│   │   └── estates.json      # Estate listing data (JSON format)
+│   ├── hooks/
+│   │   └── useAuth.js        # Custom hook for authentication
+│   ├── pages/
+│   │   ├── Home.jsx          # Home page component
+│   │   ├── Estates.jsx       # Estates listing page
+│   │   └── ProtectedRoute.jsx # Protected route wrapper
+│   ├── services/
+│   │   └── firebaseConfig.js # Firebase configuration and initialization
+│   ├── App.jsx               # Main app component with routes
+│   ├── index.js              # Main entry point for React
+│   ├── tailwind.config.js    # Tailwind CSS configuration
+│   └── styles.css            # Additional global styles if needed
+├── package.json              # npm dependencies
+├── README.md                 # Project readme
+└── .env                      # Environment variables (for Firebase config)
