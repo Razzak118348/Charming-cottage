@@ -41,7 +41,9 @@ const Navbar = () => {
 
           </ul>
         </div>
-        <Link to='/' className="btn btn-ghost text-xl md:text-2xl lg:text-3xl font-bold animate__zoomIn  popin-font"><img className="w-8 h-8" src="/public/icon.jpeg"></img> Carming Cottage</Link>
+        <Link to='/' className="btn hover:bg-yellow-400 text-xl md:text-2xl lg:text-3xl font-bold animate__zoomIn  popin-font">
+        {/* <img className="w-8 h-8" src="/public/icon.jpeg"/>  */}
+        Carming Cottage</Link>
       </div>
 
       <div className="navbar-center hidden lg:flex">

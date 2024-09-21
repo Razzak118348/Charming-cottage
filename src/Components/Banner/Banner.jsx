@@ -18,7 +18,7 @@ const Banner = () => {
                 disableOnInteraction: false,
             }}
 
-            style={{ width: '100%' ,height:'40vh'}}
+            style={{ width: '100%' ,height:'50vh'}}
 
         >
             <SwiperSlide> <img className='w-full  h-full object-cover rounded-b-3xl' src='/src/assets/images/seinglefamily.jpg' alt='singleFamily'/></SwiperSlide>

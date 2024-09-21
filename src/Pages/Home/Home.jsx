@@ -1,6 +1,7 @@
 import { Helmet } from "react-helmet";
 import { useLoaderData } from "react-router-dom";
 import Banner from "../../Components/Banner/Banner";
+import HowItsWork from "../../Components/HowItsWork/HowItsWork";
 
 
 const Home = () => {
@@ -16,7 +17,7 @@ const Home = () => {
 <Banner></Banner>
 
 {/* How its work section  */}
-
+<HowItsWork></HowItsWork>
         </div>
     );
 };
