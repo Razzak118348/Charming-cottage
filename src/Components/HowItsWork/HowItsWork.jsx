@@ -7,17 +7,17 @@ import 'animate.css';
 const HowItsWork = () => {
     return (
         <div className="mt-20 popin-font bg-slate-50 p-10 rounded-3xl">
-          <div className="text-center mb-12">
-          <h2 className="font-bold text-xl md:text-2xl">How It Works? Find a perfect home.</h2>
-          <p className="my-3 font-medium w-full md:w-1/2 flex justify-center items-center mx-auto">We will commited to Help you to find best Property. Your Investment will be orthey by buing our property .</p>
-          </div>
+            <div className="text-center mb-12 animate__animated animate__flipInX">
+                <h2 className="font-bold text-2xl md:text-3xl">How It Works? Find a perfect home.</h2>
+                <p className="my-3 font-medium w-full md:w-1/2 flex justify-center items-center mx-auto">We will commited to Help you to find best Property. Your Investment will be orthey by buing our property .</p>
+            </div>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-10 bg-slate-100  mx-auto rounded-3xl p-10">
 
                 <div className="text-center animate__animated animate__slideInLeft">
-<div className="flex items-center justify-center ">
-<TbHomeSearch className="w-8 h-8 bg-yellow-300 mb-2 rounded-lg" />
-</div>
+                    <div className="flex items-center justify-center ">
+                        <TbHomeSearch className="w-8 h-8 bg-yellow-300 mb-2 rounded-lg" />
+                    </div>
                     <h3 className="font-semibold text-xl mb-2">Find Real Estate</h3>
                     <p >Find your suitable and charming home</p>
 

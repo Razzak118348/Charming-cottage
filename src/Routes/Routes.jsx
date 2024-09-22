@@ -7,6 +7,8 @@ import Properties from "../Pages/Properties/Properties";
 import Service from "../Pages/Service/Service";
 import About from "../Pages/About/About";
 import Contact from "../Pages/Contact/Contact";
+import Signup from "../Pages/Signup/Signup";
+import PropertyDetails from "../Pages/PropertyDetails/PropertyDetails";
 
 
 const Routes =createBrowserRouter([
@@ -25,6 +27,10 @@ children:[
         element:<Login></Login>
     },
     {
+        path:'/signup',
+        element:<Signup></Signup>
+    },
+    {
         path:'/properties',
         element:<Properties></Properties>
     },
@@ -39,7 +45,13 @@ children:[
     {
         path:'/contact',
         element:<Contact></Contact>
+    },
+    {
+        path:'/properties/:id',
+        element:<PropertyDetails></PropertyDetails>,
+        loader:async({params})=>fetch('/data.json')
     }
+
 
 ]
 

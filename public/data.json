@@ -2,12 +2,17 @@
         "id": "1",
         "estate_title": "Sunny Single-Family Home",
         "segment_name": "Single-family homes",
-        "description": "This charming single-family home offers a spacious layout with three bedrooms and two bathrooms. Located in a serene neighborhood, it features a well-maintained garden, a modern kitchen with state-of-the-art appliances, and a cozy living room. The home is ideal for families looking for a peaceful retreat with easy access to local amenities and schools.",
+        "description": "This charming single-family home offers a spacious layout with three bedrooms and two bathrooms.",
         "price": "$350,000",
         "status": "sale",
         "area": "2200 sq ft",
         "location": "123 Maple Street, Springfield",
-        "facilities": ["living room", "kitchen", "garden"],
+        "facilities": [
+            { "name": "living room", "count": 2 },
+            { "name": "washroom", "count": 2 },
+            { "name": "kitchen", "count": 1 },
+            { "name": "garden", "count": 1 }
+        ],
         "image": "../src/assets/images/house4.jpeg",
         "view_property_button": "View Property"
     },
@@ -15,12 +20,17 @@
         "id": "2",
         "estate_title": "Modern Townhouse",
         "segment_name": "Townhouses",
-        "description": "This stylish townhouse features contemporary design with two bedrooms and one and a half bathrooms. The open-concept living area includes a modern kitchen with stainless steel appliances and a spacious living room perfect for entertaining. Located in a vibrant community, it offers easy access to shopping centers and public transport.",
+        "description": "This stylish townhouse features contemporary design with two bedrooms and one and a half bathrooms.",
         "price": "$250,000",
         "status": "sale",
         "area": "1800 sq ft",
         "location": "456 Elm Street, Springfield",
-        "facilities": ["living room", "kitchen"],
+        "facilities": [
+            { "name": "living room", "count": 2 },
+            { "name": "washroom", "count": 2 },
+            { "name": "kitchen", "count": 2 },
+            { "name": "garden", "count": 1 }
+        ],
         "image": "../src/assets/images/house6.jpg",
         "view_property_button": "View Property"
     },
@@ -28,12 +38,17 @@
         "id": "3",
         "estate_title": "Luxury Apartment",
         "segment_name": "Apartments",
-        "description": "Experience luxury living in this upscale apartment featuring two bedrooms, two bathrooms, and breathtaking city views. The apartment boasts high-end finishes, including hardwood floors, a gourmet kitchen, and a spacious balcony. Enjoy amenities such as a swimming pool, fitness center, and 24-hour concierge service in this prime downtown location.",
+        "description": "Experience luxury living in this upscale apartment featuring two bedrooms and two bathrooms.",
         "price": "$1,200,000",
         "status": "rent",
         "area": "1500 sq ft",
         "location": "789 Oak Avenue, Downtown",
-        "facilities": ["living room", "swimming pool", "kitchen"],
+        "facilities": [
+            { "name": "living room", "count": 2 },
+            { "name": "washroom", "count": 2 },
+            { "name": "kitchen", "count": 1 },
+            { "name": "garden", "count": 0 }
+        ],
         "image": "../src/assets/images/home2.jpg",
         "view_property_button": "View Property"
     },
@@ -41,12 +56,17 @@
         "id": "4",
         "estate_title": "Student Housing Studio",
         "segment_name": "Student housing",
-        "description": "Perfect for students, this studio apartment offers a compact and functional living space with one bedroom and one bathroom. The unit features a small kitchenette and a combined living/sleeping area. Located near the university campus, it provides easy access to academic buildings and student amenities.",
+        "description": "Perfect for students, this studio apartment offers a compact and functional living space.",
         "price": "$800/month",
         "status": "rent",
         "area": "500 sq ft",
         "location": "321 University Lane, Campus Area",
-        "facilities": ["living room", "kitchen"],
+        "facilities": [
+            { "name": "living room", "count": 2 },
+            { "name": "washroom", "count": 1 },
+            { "name": "kitchen", "count": 1 },
+            { "name": "garden", "count": 0 }
+        ],
         "image": "../src/assets/images/house8.jpeg",
         "view_property_button": "View Property"
     },
@@ -54,12 +74,17 @@
         "id": "5",
         "estate_title": "Senior Living Community Unit",
         "segment_name": "Senior living communities",
-        "description": "This comfortable senior living unit features one bedroom, a bathroom with accessibility features, and a well-equipped kitchenette. The community offers a variety of amenities such as a fitness center, communal lounge areas, and organized social activities. It's designed to provide a supportive and engaging environment for active seniors.",
+        "description": "This comfortable senior living unit features one bedroom, a bathroom with accessibility features, and a well-equipped kitchenette.",
         "price": "$1,500/month",
         "status": "rent",
         "area": "700 sq ft",
         "location": "654 Elder Street, Retirement Village",
-        "facilities": ["living room", "kitchen", "fitness center"],
+        "facilities": [
+            { "name": "living room", "count": 2 },
+            { "name": "washroom", "count": 1 },
+            { "name": "kitchen", "count": 1 },
+            { "name": "garden", "count": 0 }
+        ],
         "image": "../src/assets/images/house9.jpeg",
         "view_property_button": "View Property"
     },
@@ -67,12 +92,17 @@
         "id": "6",
         "estate_title": "Beachfront Vacation Rental",
         "segment_name": "Vacation rentals",
-        "description": "Enjoy a relaxing stay in this beautiful beachfront vacation rental featuring three bedrooms and two bathrooms. The property offers direct beach access, a private deck, and stunning ocean views. The open-plan living area includes a fully equipped kitchen, a dining area, and a spacious living room perfect for family gatherings.",
+        "description": "Enjoy a relaxing stay in this beautiful beachfront vacation rental featuring three bedrooms and two bathrooms.",
         "price": "$2,500/week",
         "status": "rent",
         "area": "2500 sq ft",
         "location": "987 Seaside Drive, Beach Town",
-        "facilities": ["living room", "kitchen", "deck"],
+        "facilities": [
+            { "name": "living room", "count": 2 },
+            { "name": "washroom", "count": 2 },
+            { "name": "kitchen", "count": 1 },
+            { "name": "garden", "count": 1 }
+        ],
         "image": "../src/assets/images/vacation2.jpeg",
         "view_property_button": "View Property"
     },
@@ -80,12 +110,17 @@
         "id": "7",
         "estate_title": "Cozy Single-Family Cottage",
         "segment_name": "Single-family homes",
-        "description": "This quaint single-family cottage features two bedrooms, a charming living room with a fireplace, and a well-appointed kitchen. The property is situated in a quiet neighborhood with lush greenery and is ideal for those seeking a cozy, peaceful retreat with easy access to local parks and amenities.",
+        "description": "This quaint single-family cottage features two bedrooms, a charming living room with a fireplace.",
         "price": "$275,000",
         "status": "sale",
         "area": "1500 sq ft",
         "location": "852 Pine Road, Smalltown",
-        "facilities": ["living room", "kitchen", "garden"],
+        "facilities": [
+            { "name": "living room", "count": 2 },
+            { "name": "washroom", "count": 2 },
+            { "name": "kitchen", "count": 1 },
+            { "name": "garden", "count": 1 }
+        ],
         "image": "../src/assets/images/house5.jpeg",
         "view_property_button": "View Property"
     },
@@ -93,12 +128,17 @@
         "id": "8",
         "estate_title": "Spacious Townhouse with Garage",
         "segment_name": "Townhouses",
-        "description": "This modern townhouse offers ample space with four bedrooms, three bathrooms, and an attached garage. The open living area features a contemporary kitchen with granite countertops, a large dining area, and a living room with a fireplace. Located in a family-friendly community, it provides easy access to schools and shopping.",
+        "description": "This modern townhouse offers ample space with four bedrooms, three bathrooms, and an attached garage.",
         "price": "$320,000",
         "status": "sale",
         "area": "2200 sq ft",
         "location": "147 Cedar Street, Greenfield",
-        "facilities": ["living room", "kitchen", "garage"],
+        "facilities": [
+            { "name": "living room", "count": 2 },
+            { "name": "washroom", "count": 2 },
+            { "name": "kitchen", "count": 2 },
+            { "name": "garden", "count": 1 }
+        ],
         "image": "../src/assets/images/house7.jpeg",
         "view_property_button": "View Property"
     },
@@ -106,12 +146,17 @@
         "id": "9",
         "estate_title": "Elegant Apartment in Historic District",
         "segment_name": "Apartments",
-        "description": "This elegant apartment is located in a beautifully restored historic building. It features two bedrooms, two bathrooms, and high ceilings with classic architectural details. The apartment includes a modern kitchen, a large living room, and access to a rooftop terrace with panoramic views of the city. It's perfect for those who appreciate a blend of historic charm and modern convenience.",
+        "description": "This elegant apartment is located in a beautifully restored historic building.",
         "price": "$900,000",
         "status": "rent",
         "area": "1600 sq ft",
         "location": "321 Historic Avenue, Oldtown",
-        "facilities": ["living room", "kitchen", "rooftop terrace"],
+        "facilities": [
+            { "name": "living room", "count": 2 },
+            { "name": "washroom", "count": 2 },
+            { "name": "kitchen", "count": 1 },
+            { "name": "garden", "count": 0 }
+        ],
         "image": "../src/assets/images/home1.jpg",
         "view_property_button": "View Property"
     }

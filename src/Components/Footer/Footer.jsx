@@ -79,7 +79,7 @@ const Footer = () => {
   <nav>
     <h6 className="footer-title ">Contact Us</h6>
     <a className="link link-hover flex"><IoMdCall className="w-5 h-6 mr-2"></IoMdCall>01521752249</a>
-    <a className="link link-hover flex "><MdOutlineEmail className="w-5 h-6 mr-2"></MdOutlineEmail> abdurrazzak118348@gmail.com</a>
+    <a className="link link-hover flex "><MdOutlineEmail className="w-5 h-6 mr-2"></MdOutlineEmail> arcse21@gmail.com</a>
     <a className="link link-hover flex "><IoLocation className="w-5 h-6 mr-2"></IoLocation> Gulsan -200, Dhaka 1000</a>
   </nav>
 </footer>
