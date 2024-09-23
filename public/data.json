@@ -2,7 +2,7 @@
         "id": "1",
         "estate_title": "Sunny Single-Family Home",
         "segment_name": "Single-family homes",
-        "description": "This charming single-family home offers a spacious layout with three bedrooms and two bathrooms.",
+        "description": "This charming single-family home offers a spacious layout with three bedrooms and two bathrooms. We recommend you the best deals and our service is 100% authentic. If you want to invest your golden money in any project, then you are in the right place. Don't worry, we give our best service.",
         "price": "$350,000",
         "status": "sale",
         "area": "2200 sq ft",
@@ -14,13 +14,17 @@
             { "name": "garden", "count": 1 }
         ],
         "image": "../src/assets/images/house4.jpeg",
-        "view_property_button": "View Property"
+        "view_property_button": "View Property",
+        "contacts": [
+            { "address": "456 Maple Street, Springfield", "phone": "(555) 123-4567" },
+            { "address": "789 Oak Street, Springfield", "phone": "(555) 765-4321" }
+        ]
     },
     {
         "id": "2",
         "estate_title": "Modern Townhouse",
         "segment_name": "Townhouses",
-        "description": "This stylish townhouse features contemporary design with two bedrooms and one and a half bathrooms.",
+        "description": "This stylish townhouse features contemporary design with two bedrooms and one and a half bathrooms. We recommend you the best deals and our service is 100% authentic. If you want to invest your golden money in any project, then you are in the right place. Don't worry, we give our best service.",
         "price": "$250,000",
         "status": "sale",
         "area": "1800 sq ft",
@@ -32,13 +36,17 @@
             { "name": "garden", "count": 1 }
         ],
         "image": "../src/assets/images/house6.jpg",
-        "view_property_button": "View Property"
+        "view_property_button": "View Property",
+        "contacts": [
+            { "address": "123 Elm Street, Springfield", "phone": "(555) 234-5678" },
+            { "address": "321 Oak Avenue, Springfield", "phone": "(555) 876-5432" }
+        ]
     },
     {
         "id": "3",
         "estate_title": "Luxury Apartment",
         "segment_name": "Apartments",
-        "description": "Experience luxury living in this upscale apartment featuring two bedrooms and two bathrooms.",
+        "description": "Experience luxury living in this upscale apartment featuring two bedrooms and two bathrooms. We recommend you the best deals and our service is 100% authentic. If you want to invest your golden money in any project, then you are in the right place. Don't worry, we give our best service.",
         "price": "$1,200,000",
         "status": "rent",
         "area": "1500 sq ft",
@@ -50,13 +58,17 @@
             { "name": "garden", "count": 0 }
         ],
         "image": "../src/assets/images/home2.jpg",
-        "view_property_button": "View Property"
+        "view_property_button": "View Property",
+        "contacts": [
+            { "address": "123 Maple Street, Downtown", "phone": "(555) 345-6789" },
+            { "address": "456 Elm Street, Downtown", "phone": "(555) 987-6543" }
+        ]
     },
     {
         "id": "4",
         "estate_title": "Student Housing Studio",
         "segment_name": "Student housing",
-        "description": "Perfect for students, this studio apartment offers a compact and functional living space.",
+        "description": "Perfect for students, this studio apartment offers a compact and functional living space. We recommend you the best deals and our service is 100% authentic. If you want to invest your golden money in any project, then you are in the right place. Don't worry, we give our best service.",
         "price": "$800/month",
         "status": "rent",
         "area": "500 sq ft",
@@ -68,13 +80,17 @@
             { "name": "garden", "count": 0 }
         ],
         "image": "../src/assets/images/house8.jpeg",
-        "view_property_button": "View Property"
+        "view_property_button": "View Property",
+        "contacts": [
+            { "address": "654 University Avenue, Campus Area", "phone": "(555) 456-7890" },
+            { "address": "987 Elm Street, Campus Area", "phone": "(555) 098-7654" }
+        ]
     },
     {
         "id": "5",
         "estate_title": "Senior Living Community Unit",
         "segment_name": "Senior living communities",
-        "description": "This comfortable senior living unit features one bedroom, a bathroom with accessibility features, and a well-equipped kitchenette.",
+        "description": "This comfortable senior living unit features one bedroom, a bathroom with accessibility features, and a well-equipped kitchenette. We recommend you the best deals and our service is 100% authentic. If you want to invest your golden money in any project, then you are in the right place. Don't worry, we give our best service.",
         "price": "$1,500/month",
         "status": "rent",
         "area": "700 sq ft",
@@ -86,13 +102,17 @@
             { "name": "garden", "count": 0 }
         ],
         "image": "../src/assets/images/house9.jpeg",
-        "view_property_button": "View Property"
+        "view_property_button": "View Property",
+        "contacts": [
+            { "address": "321 Senior Lane, Retirement Village", "phone": "(555) 567-8901" },
+            { "address": "987 Elder Street, Retirement Village", "phone": "(555) 109-8765" }
+        ]
     },
     {
         "id": "6",
         "estate_title": "Beachfront Vacation Rental",
         "segment_name": "Vacation rentals",
-        "description": "Enjoy a relaxing stay in this beautiful beachfront vacation rental featuring three bedrooms and two bathrooms.",
+        "description": "Enjoy a relaxing stay in this beautiful beachfront vacation rental featuring three bedrooms and two bathrooms. We recommend you the best deals and our service is 100% authentic. If you want to invest your golden money in any project, then you are in the right place. Don't worry, we give our best service.",
         "price": "$2,500/week",
         "status": "rent",
         "area": "2500 sq ft",
@@ -104,13 +124,17 @@
             { "name": "garden", "count": 1 }
         ],
         "image": "../src/assets/images/vacation2.jpeg",
-        "view_property_button": "View Property"
+        "view_property_button": "View Property",
+        "contacts": [
+            { "address": "654 Ocean Avenue, Beach Town", "phone": "(555) 678-9012" },
+            { "address": "321 Seaside Lane, Beach Town", "phone": "(555) 210-9876" }
+        ]
     },
     {
         "id": "7",
         "estate_title": "Cozy Single-Family Cottage",
         "segment_name": "Single-family homes",
-        "description": "This quaint single-family cottage features two bedrooms, a charming living room with a fireplace.",
+        "description": "This quaint single-family cottage features two bedrooms, a charming living room with a fireplace. We recommend you the best deals and our service is 100% authentic. If you want to invest your golden money in any project, then you are in the right place. Don't worry, we give our best service.",
         "price": "$275,000",
         "status": "sale",
         "area": "1500 sq ft",
@@ -122,13 +146,17 @@
             { "name": "garden", "count": 1 }
         ],
         "image": "../src/assets/images/house5.jpeg",
-        "view_property_button": "View Property"
+        "view_property_button": "View Property",
+        "contacts": [
+            { "address": "654 Pine Street, Smalltown", "phone": "(555) 789-0123" },
+            { "address": "987 Elm Avenue, Smalltown", "phone": "(555) 321-0987" }
+        ]
     },
     {
         "id": "8",
         "estate_title": "Spacious Townhouse with Garage",
         "segment_name": "Townhouses",
-        "description": "This modern townhouse offers ample space with four bedrooms, three bathrooms, and an attached garage.",
+        "description": "This modern townhouse offers ample space with four bedrooms, three bathrooms, and an attached garage. We recommend you the best deals and our service is 100% authentic. If you want to invest your golden money in any project, then you are in the right place. Don't worry, we give our best service.",
         "price": "$320,000",
         "status": "sale",
         "area": "2200 sq ft",
@@ -140,13 +168,17 @@
             { "name": "garden", "count": 1 }
         ],
         "image": "../src/assets/images/house7.jpeg",
-        "view_property_button": "View Property"
+        "view_property_button": "View Property",
+        "contacts": [
+            { "address": "654 Cedar Lane, Greenfield", "phone": "(555) 890-1234" },
+            { "address": "321 Oak Street, Greenfield", "phone": "(555) 432-1098" }
+        ]
     },
     {
         "id": "9",
         "estate_title": "Elegant Apartment in Historic District",
         "segment_name": "Apartments",
-        "description": "This elegant apartment is located in a beautifully restored historic building.",
+        "description": "This elegant apartment is located in a beautifully restored historic building. We recommend you the best deals and our service is 100% authentic. If you want to invest your golden money in any project, then you are in the right place. Don't worry, we give our best service.",
         "price": "$900,000",
         "status": "rent",
         "area": "1600 sq ft",
@@ -158,6 +190,10 @@
             { "name": "garden", "count": 0 }
         ],
         "image": "../src/assets/images/home1.jpg",
-        "view_property_button": "View Property"
+        "view_property_button": "View Property",
+        "contacts": [
+            { "address": "654 Elm Street, Oldtown", "phone": "(555) 901-2345" },
+            { "address": "987 Historic Lane, Oldtown", "phone": "(555) 543-2109" }
+        ]
     }
 ]
