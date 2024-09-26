@@ -2,7 +2,7 @@ import { FaArrowRight, FaBath, FaBed } from "react-icons/fa";
 import { FaKitchenSet } from "react-icons/fa6";
 import { GiFlowerPot } from "react-icons/gi";
 import { Link } from "react-router-dom";
-
+import 'animate.css';
 
 const PopulerListing = ({eachProperty}) => {
     console.log(eachProperty)
@@ -16,7 +16,7 @@ location,
         facilities,
         }=eachProperty
     return (
-        <div className="card bg-gray-100 w-96 shadow-xl popin-font  md:ml-5">
+        <div className="card bg-gray-100 w-96 shadow-xl popin-font  md:ml-5 animate__animated animate__backInUp animate__delay-1s ">
         <figure className="">
           <img
           className="w-full h-56 rounded-lg"

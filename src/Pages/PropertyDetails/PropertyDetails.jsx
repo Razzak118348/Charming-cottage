@@ -7,6 +7,9 @@ import { Link } from "react-router-dom";
 import { MapContainer, Marker, Popup, TileLayer, useMap } from 'react-leaflet'
 import 'leaflet/dist/leaflet.css'
 import './Property.css'
+import 'animate.css';
+
+
 const PropertyDetails = () => {
     const data = useLoaderData();
     const { id } = useParams();
@@ -31,23 +34,23 @@ const PropertyDetails = () => {
             <div className="my-10">
                 <div className="flex justify-center items-center">
                     <img
-                        className="w-[70vw]  h-3/4 rounded-lg shadow-slate-800 shadow-lg"
+                        className="w-[60vw]  h-1/4 rounded-lg shadow-slate-800 shadow-lg animate__animated animate__backInDown "
                         src={image}
                         alt={estate_title}
                     />
                 </div>
                 <div className="mt-8 flex justify-between mx-8 ">
-                    <span className="bg-yellow-500 px-5  py-1 rounded-lg font-medium">For {status}</span>
-                    <span className="mr-8 bg-gray-400 px-5 py-1 rounded-lg font-medium">{price}</span>
+                    <span className="bg-yellow-500 px-5  py-1 rounded-lg font-medium animate__animated animate__fadeInLeftBig ">For {status}</span>
+                    <span className="mr-8 bg-gray-400 px-5 py-1 rounded-lg font-medium animate__animated animate__fadeInRightBig">{price}</span>
                 </div>
-                <h1 className="text-2xl md:text-3xl font-bold mt-6 ml-8">#{estate_title}</h1>
+                <h1 className="text-2xl md:text-3xl font-bold mt-6 ml-8 animate__animated animate__fadeInUp animate__delay-1s">#{estate_title}</h1>
                 <p className="mt-3 ml-8 md:w-[60vw]">{description}</p>
             </div>
 
-            <h3 className="mx-8  font-medium  text-lg my-3
+            <h3 className="mx-8  font-medium  text-lg my-3 animate__animated animate__backInLeft
             ">Facilities of this property :</h3>
             <hr className="mx-8" />
-            <div className="bg-slate-100 p-8 rounded-3xl  mx-8 grid grid-cols-2 lg:grid-cols-3 gap-5 mb-10 mt-3">
+            <div className="bg-slate-100 p-8 rounded-3xl  mx-8 grid grid-cols-2 lg:grid-cols-3 gap-5 mb-10 mt-3 animate__animated animate__fadeInUp animate__delay-1s">
                 <div className="flex text-gray-600 ">
                     <FaBed className="mr-2  w-10 h-10"></FaBed>
                     <h3 className="text-2xl">{facilities[0].name} : {facilities[0].count}</h3>
@@ -89,19 +92,19 @@ const PropertyDetails = () => {
                         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                     />
                     <Marker position={[51.505, -0.09]}>
-                        <Popup>
+                        {/* <Popup>
                             A pretty CSS3 popup. <br /> Easily customizable.
-                        </Popup>
+                        </Popup> */}
                     </Marker>
                 </MapContainer>
 
             </div>
             {/* contact us  */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mb-10">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mb-10  animate__bounceInRight ">
                 <h3 className="mx-8 text-xl font-bold mb-2">Contact us : </h3>
                 <hr className="mx-8 mb-3" />
 
-                <div className="card bg-base-100 w-96 shadow-xl">
+                <div className="card bg-base-100 w-96 shadow-xl animate__bounceInLeft animate__animated animate__delay-2s">
                     <div className="card-body">
                         <h2 className="card-title "><FaLocationDot className="w-8 h-8 text-red-700"></FaLocationDot></h2>
                         <h2 className="card-title">C{contacts[0].address}</h2>
@@ -111,7 +114,7 @@ const PropertyDetails = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card bg-base-100 w-96 shadow-xl">
+                <div className="card bg-base-100 w-96 shadow-xl animate__bounceInRight animate__animated animate__delay-2s">
                     <div className="card-body">
                     <h2 className="card-title"><FaLocationDot className="w-8 h-8 text-red-700"></FaLocationDot></h2>
                         <h2 className="card-title">C{contacts[1].address}</h2>
