@@ -10,6 +10,7 @@ import useAuth from "../../hooks/useAuth";
 
 const Login = () => {
   const { SignInUser } = useAuth()
+
   const {
     register,
     handleSubmit,
@@ -23,7 +24,7 @@ const Login = () => {
   // navigation
   const navigation = useNavigate()
   const location = useLocation();
-  const destination = location?.state || "/";
+  const destination = location?.state?location.state : "/";
 
 
   //handle register with react hock form
@@ -49,14 +50,14 @@ toast.error("Password or Email Invalid",{position:'top-right'})
 
 
   return (
-    <div>
+    <div className="m-0 p-0">
       <Helmet>
         <title>Login | Charming Cottage</title>
       </Helmet>
       <ToastContainer autoClose={500}></ToastContainer>
-      <div className=" min-h-screen p-3 rounded-2xl mt-10 md:mt-20">
+      <div className=" min-h-screen p-3 rounded-2xl  ">
         <div className="popin-font mt-44 md:mt-8 mb-10 lg:mx-80 lg:my-40 bg-[#FFFFFF] border border-green-300 text-center  rounded-xl">
-          <h2 className="text-xl md:text-4xl font-semibold text-[rgb(64,63,63)] mt-9">Please Login</h2>
+          <h2 className="text-2xl md:text-4xl font-bold text-[rgb(64,63,63)] mt-9">Please Login</h2>
 
           <hr className="mt-8" />
           <div className="">

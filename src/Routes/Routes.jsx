@@ -33,7 +33,7 @@ children:[
     },
     {
         path:'/properties',
-        element:<Properties></Properties>,
+        element:<PrivetRout><Properties></Properties></PrivetRout>,
         loader:()=>fetch('/data.json')
 
 
@@ -53,7 +53,7 @@ children:[
     {
         path:'/properties/:id',
         element:<PrivetRout><PropertyDetails></PropertyDetails></PrivetRout>,
-        loader:async({params})=>fetch('/data.json')
+        loader:async()=>fetch('/data.json')
     }
 
 
