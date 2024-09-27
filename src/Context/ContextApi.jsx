@@ -36,6 +36,7 @@ const ContextApi = ({ children }) => {
         const unSubscribe = onAuthStateChanged(auth, (user) => {
             if (user) {
                 setUser(user)
+                setLoading(false)
             }
         })
         return () => unSubscribe()
@@ -54,6 +55,7 @@ const ContextApi = ({ children }) => {
         updateUserProfile,
         SignInUser,
         LogOut,
+        loading,
 
     }
 

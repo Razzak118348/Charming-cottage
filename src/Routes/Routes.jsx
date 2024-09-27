@@ -9,6 +9,7 @@ import About from "../Pages/About/About";
 import Contact from "../Pages/Contact/Contact";
 import Signup from "../Pages/Signup/Signup";
 import PropertyDetails from "../Pages/PropertyDetails/PropertyDetails";
+import PrivetRout from "./PrivetRout";
 
 
 const Routes =createBrowserRouter([
@@ -32,7 +33,10 @@ children:[
     },
     {
         path:'/properties',
-        element:<Properties></Properties>
+        element:<Properties></Properties>,
+        loader:()=>fetch('/data.json')
+
+
     },
     {
         path:'/service',
@@ -48,7 +52,7 @@ children:[
     },
     {
         path:'/properties/:id',
-        element:<PropertyDetails></PropertyDetails>,
+        element:<PrivetRout><PropertyDetails></PropertyDetails></PrivetRout>,
         loader:async({params})=>fetch('/data.json')
     }
 
