@@ -7,6 +7,7 @@ import "react-toastify/dist/ReactToastify.css";
 
 import { useForm } from "react-hook-form"
 import useAuth from "../../hooks/useAuth";
+import SocialLogin from "../../Components/SocialMediaLogin/SocialLogin";
 
 const Login = () => {
   const { SignInUser } = useAuth()
@@ -55,11 +56,13 @@ toast.error("Password or Email Invalid",{position:'top-right'})
         <title>Login | Charming Cottage</title>
       </Helmet>
       <ToastContainer autoClose={500}></ToastContainer>
-      <div className=" min-h-screen p-3 rounded-2xl  ">
-        <div className="popin-font mt-44 md:mt-8 mb-10 lg:mx-80 lg:my-40 bg-[#FFFFFF] border border-green-300 text-center  rounded-xl">
+
+      <div className="  p-3 rounded-2xl  ">
+        <div className="popin-font mt-10 md:mt-8 mb-10 lg:mx-80 lg:my-40 bg-[#FFFFFF] border border-green-300 text-center  rounded-xl">
           <h2 className="text-2xl md:text-4xl font-bold text-[rgb(64,63,63)] mt-9">Please Login</h2>
 
           <hr className="mt-8" />
+          <SocialLogin></SocialLogin>
           <div className="">
             <div className="hero-content flex-col ">
               <div className="text-center lg:text-left">
