@@ -10,6 +10,7 @@ import Contact from "../Pages/Contact/Contact";
 import Signup from "../Pages/Signup/Signup";
 import PropertyDetails from "../Pages/PropertyDetails/PropertyDetails";
 import PrivetRout from "./PrivetRout";
+import Profile from "../Pages/Profile/Profile";
 
 
 const Routes =createBrowserRouter([
@@ -54,6 +55,10 @@ children:[
         path:'/properties/:id',
         element:<PrivetRout><PropertyDetails></PropertyDetails></PrivetRout>,
         loader:async()=>fetch('/data.json')
+    },
+    {
+        path:'/profile',
+        element:<Profile></Profile>
     }
 
 
