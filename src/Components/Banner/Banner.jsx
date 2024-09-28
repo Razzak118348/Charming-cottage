@@ -21,11 +21,11 @@ const Banner = () => {
             style={{ width: '100%' ,height:'50vh'}}
 
         >
-            <SwiperSlide> <img className='w-full  h-full object-cover rounded-b-3xl' src='/src/assets/images/seinglefamily.jpg' alt='singleFamily'/></SwiperSlide>
-            <SwiperSlide>  <img className='w-full  h-full object-cover rounded-b-3xl' src='/src/assets/images/student.jpg' alt='studentPannal'/> </SwiperSlide>
-            <SwiperSlide>  <img className='w-full  h-full object-cover rounded-b-3xl' src='/src/assets/images/senior.jpg' alt='senior'/></SwiperSlide>
-            <SwiperSlide> <img className='w-full  h-full object-cover rounded-b-3xl' src='/src/assets/images/townhouse.jpg' alt='townhouse'/></SwiperSlide>
-            <SwiperSlide> <img className='w-full  h-full object-cover rounded-b-3xl' src='/src/assets/images/vacation.jpg' alt='vacation'/></SwiperSlide>
+            <SwiperSlide> <img className='w-full  h-full object-cover rounded-b-3xl' src='/images/seinglefamily.jpg' alt='singleFamily'/></SwiperSlide>
+            <SwiperSlide>  <img className='w-full  h-full object-cover rounded-b-3xl' src='images/student.jpg' alt='studentPannal'/> </SwiperSlide>
+            <SwiperSlide>  <img className='w-full  h-full object-cover rounded-b-3xl' src='/images/senior.jpg' alt='senior'/></SwiperSlide>
+            <SwiperSlide> <img className='w-full  h-full object-cover rounded-b-3xl' src='/images/townhouse.jpg' alt='townhouse'/></SwiperSlide>
+            <SwiperSlide> <img className='w-full  h-full object-cover rounded-b-3xl' src='/images/vacation.jpg' alt='vacation'/></SwiperSlide>
         </Swiper>
     );
 };

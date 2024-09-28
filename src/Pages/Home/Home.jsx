@@ -13,7 +13,7 @@ const Home = () => {
 
     const data = useLoaderData()
 
-    const listing = data.slice(0, 3)
+    const listing = data.slice(0, 6)
     console.log(data);
 
     return (
@@ -64,7 +64,7 @@ const Home = () => {
 <div className="flex justify-center ">
 <div className="bg-gradient-to-b from-gray-200 to-gray-100 rounded-lg  w-full md:w-3/4">
                     <div className="text-center mb-5 animate__animated animate__fadeInUp">
-                        <p className=" w-full md:w-1/2 mx-auto  font-medium text-lg p-5"> At Charming Cottage, we understand that finding the right property is a significant decision. That’s why our consultation system is designed to offer personalized guidance every step of the way. Whether you're buying, selling, or renting, our experienced team is here to help you make informed decisions. </p>
+                        <p className=" w-full lg:w-1/2 mx-auto  font-medium text-lg p-5"> At Charming Cottage, we understand that finding the right property is a significant decision. That’s why our consultation system is designed to offer personalized guidance every step of the way. Whether you're buying, selling, or renting, our experienced team is here to help you make informed decisions. </p>
                     <p className=" font-bold text-lg">
                         Abdur Razzak
                     </p>

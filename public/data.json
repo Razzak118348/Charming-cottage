@@ -13,7 +13,8 @@
             { "name": "kitchen", "count": 1 },
             { "name": "garden", "count": 1 }
         ],
-        "image": "../src/assets/images/house4.jpeg",
+        "image": "/images/seinglefamily.jpg",
+
         "view_property_button": "View Property",
         "contacts": [
             { "address": "456 Maple Street, Springfield", "phone": "(555) 123-4567" },
@@ -35,7 +36,7 @@
             { "name": "kitchen", "count": 2 },
             { "name": "garden", "count": 1 }
         ],
-        "image": "../src/assets/images/house6.jpg",
+        "image": "/images/modernhouse.jpg",
         "view_property_button": "View Property",
         "contacts": [
             { "address": "123 Elm Street, Springfield", "phone": "(555) 234-5678" },
@@ -57,7 +58,7 @@
             { "name": "kitchen", "count": 1 },
             { "name": "garden", "count": 0 }
         ],
-        "image": "../src/assets/images/home2.jpg",
+        "image": "/images/luxuryA.jpg",
         "view_property_button": "View Property",
         "contacts": [
             { "address": "123 Maple Street, Downtown", "phone": "(555) 345-6789" },
@@ -79,7 +80,7 @@
             { "name": "kitchen", "count": 1 },
             { "name": "garden", "count": 0 }
         ],
-        "image": "../src/assets/images/house8.jpeg",
+        "image": "/images/studenthouse.jpg",
         "view_property_button": "View Property",
         "contacts": [
             { "address": "654 University Avenue, Campus Area", "phone": "(555) 456-7890" },
@@ -101,7 +102,7 @@
             { "name": "kitchen", "count": 1 },
             { "name": "garden", "count": 0 }
         ],
-        "image": "../src/assets/images/house9.jpeg",
+        "image": "/images/seniorLiving.jpg",
         "view_property_button": "View Property",
         "contacts": [
             { "address": "321 Senior Lane, Retirement Village", "phone": "(555) 567-8901" },
@@ -123,7 +124,7 @@
             { "name": "kitchen", "count": 1 },
             { "name": "garden", "count": 1 }
         ],
-        "image": "../src/assets/images/vacation2.jpeg",
+        "image": "/images/vacationimage.jpg",
         "view_property_button": "View Property",
         "contacts": [
             { "address": "654 Ocean Avenue, Beach Town", "phone": "(555) 678-9012" },
@@ -145,7 +146,7 @@
             { "name": "kitchen", "count": 1 },
             { "name": "garden", "count": 1 }
         ],
-        "image": "../src/assets/images/house5.jpeg",
+        "image": "/images/cozySingle.jpg",
         "view_property_button": "View Property",
         "contacts": [
             { "address": "654 Pine Street, Smalltown", "phone": "(555) 789-0123" },
@@ -167,7 +168,7 @@
             { "name": "kitchen", "count": 2 },
             { "name": "garden", "count": 1 }
         ],
-        "image": "../src/assets/images/house7.jpeg",
+        "image": "/images/SpaciousTownhouse.jpg",
         "view_property_button": "View Property",
         "contacts": [
             { "address": "654 Cedar Lane, Greenfield", "phone": "(555) 890-1234" },
@@ -189,7 +190,7 @@
             { "name": "kitchen", "count": 1 },
             { "name": "garden", "count": 0 }
         ],
-        "image": "../src/assets/images/home1.jpg",
+        "image": "/images/ElegantApartment.jpg",
         "view_property_button": "View Property",
         "contacts": [
             { "address": "654 Elm Street, Oldtown", "phone": "(555) 901-2345" },

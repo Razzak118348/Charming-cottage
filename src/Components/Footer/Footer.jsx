@@ -8,7 +8,7 @@ const Footer = () => {
 
 <footer className="footer bg-base-200 text-base-content border-base-300 border-t px-10 py-4">
   <aside className="grid-flow-col items-center animate__animated animate__backInLeft ">
-    <img className="rounded-lg w-14 h-12 " src="/public/icon.jpeg" alt="" />
+    <img className="rounded-lg w-14 h-12 " src="/public/icon.jpg" alt="" />
     <p className="text-3xl">
       Charming Cottage
 
