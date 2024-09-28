@@ -8,8 +8,8 @@ const Contact = () => {
         <div className="popin-font">
             <Helmet><title>Contact | Cottage</title></Helmet>
 
-            <img className="h-56 w-full rounded-b-3xl " src="/public/home1.jpg" alt="" />
-            <h1 className="text-6xl font-bold  ml-10 text-white animate__animated animate__fadeInRight -mt-36  ">Contact with us</h1>
+            <img className="h-56 w-full rounded-b-3xl " src="/home1.jpg" alt="" />
+            <h1 className="text-3xl md:text-6xl font-bold  ml-10 text-white animate__animated animate__fadeInRight -mt-36  ">Contact with us</h1>
 
            <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 mb-20">
            <form className="mt-36 animate__animated animate__backInLeft ">

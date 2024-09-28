@@ -7,11 +7,13 @@ const Properties = () => {
     const data =useLoaderData();
 
     return (
-        <div>
+        <div className="popin-font ">
 <Helmet><title>Properties | Cottage</title></Helmet>
-<img src="/public/home1.jpg" alt="home" />
-<h1 className="text-2xl md:text-4xl m-8 font-bold popin-font">All listing here</h1>
-<div className="my-10 md:my-20 mx-0 md:mx-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 animate__animated animate__backInUp">
+<img className="h-56 w-full rounded-b-3xl " src="/home2.jpg" alt="" />
+<h1 className="text-3xl md:text-6xl font-bold  ml-10 text-white animate__animated animate__fadeInRight -mt-36  ">All Listing here</h1>
+
+
+<div className="mt-36 mb-20 mx-0 md:mx-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 animate__animated animate__backInUp">
 
 {
     data.map((singleData,idx) => <PopulerListing key={idx} eachProperty={singleData}></PopulerListing>)

@@ -14,11 +14,11 @@ const Signup = () => {
   const { creatUser,
     updateUserProfile } = useAuth();
 
-const notify =()=>{
-  toast.success("Successfully SignUp",{
-    position:"top-right"
-  })
-}
+  // const notify =()=>{
+  //   toast.success("Successfully SignUp",{
+  //     position:"top-right"
+  //   })
+  // }
 
   const {
     register,
@@ -29,19 +29,62 @@ const notify =()=>{
 
   const navigate = useNavigate()
 
+  const PasswordValidation =(password) =>{
+    const length = password.length>=6;
+    const upperCase = /[A-z]/.test(password);
+    const lowerCase = /[a-z]/.test(password);
+    // combind uper and lower : /(?=.*[A-Z])(?=.*[a-z])/.test(password)
+    return length&&upperCase&&lowerCase;
+  }
 
   const onSubmit = (data) => {
     const { name, image, email, password } = data;
     console.log(name, email, password)
+
+
+//kun error ta dekhabe etar jonno if function ...
+//passwordvalidation(password) ei function false return kora mane error hoyeche
+//sei error chack korbe ei if condition
+
+if(!PasswordValidation(password)){
+  if(password.length<6){
+    toast.error("Password must be 6 character", {
+      position: 'top-right',
+    })
+  }
+  else if(!/[A-Z]/.test(password)){
+    toast.error("Password must need one UpperCase", {
+      position: 'top-right',
+    })
+  }
+  else if(!/[a-z]/.test(password)){
+    toast.error("Password must need one lowerCase", {
+      position: 'top-right',
+    })
+  }
+  return;
+}
 
     //creat user
     creatUser(email, password)
       .then(() => {
         updateUserProfile(name, image)
           .then(() => {
-            navigate('/');
-            console.log('REGISTER SUCCESSFULL')
+            toast.success("Successfully Resister", {
+              position: 'top-right',
+              onClose: navigate('/')
+            })
           })
+          .catch(error => {
+            toast.error(error.message, {
+              position: 'top-right',
+            })
+          })
+      })
+      .catch(error => {
+        toast.error(error.message, {
+          position: 'top-left',
+        })
       })
   }
 
@@ -49,12 +92,12 @@ const notify =()=>{
     <div>
       <Helmet><title>SignUp | Charming Cottage</title></Helmet>
       <ToastContainer
-autoClose={500}
+        autoClose={500}
       ></ToastContainer>
       {/* signup form  */}
-      <div className="mt-10 md:mt-20 min-h-screen p-3 rounded-2xl ">
+      <div className="mt-10  p-3 rounded-2xl ">
 
-        <div className="popin-font mt-44 md:mt-8 mb-10 lg:mx-80 lg:my-40 bg-[#FFFFFF] border border-green-300 text-center  rounded-xl">
+        <div className="popin-font  md:mt-8 mb-10 lg:mx-80 lg:my-40 bg-[#FFFFFF] border border-green-300 text-center  rounded-xl">
           <h2 className="text-xl md:text-4xl font-semibold text-[rgb(64,63,63)] mt-9">Please Register </h2>
 
           <hr className="mt-8" />
@@ -130,7 +173,7 @@ autoClose={500}
                     </label>
                   </div>
                   <div className="form-control mt-6">
-                    <button onClick={notify} type="submit" className="btn hover:bg-green-500 bg-[#403F3F] text-white font-bold text-lg md:text-2xl ">SignUp</button>
+                    <button  type="submit" className="btn hover:bg-green-500 bg-[#403F3F] text-white font-bold text-lg md:text-2xl ">SignUp</button>
 
                   </div>
                 </form>
