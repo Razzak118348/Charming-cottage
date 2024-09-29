@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import 'animate.css';
 
 const PopulerListing = ({eachProperty}) => {
-    console.log(eachProperty)
+    // console.log(eachProperty)
     const {
         estate_title,
         image,

@@ -14,7 +14,7 @@ console.log(user)
 {user && (
   <>
 <li><NavLink className="mr-1   md:mr-4  my-0 md:my-0  font-bold text-base " to='/profile'>Profile</NavLink></li>
-<li><NavLink className="mr-1   md:mr-4  my-0 md:my-0  font-bold text-base " to='/dashboard'>Dashboard</NavLink></li>
+
   </>
   )
 }
@@ -61,8 +61,8 @@ console.log(user)
         {
           user?<div className="dropdown dropdown-end">
           <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
-              <div className="w-10 rounded-full">
-                  <img src={user?.photoURL? user.photoURL : "https://cdn-icons-png.flaticon.com/512/219/219986.png" } />
+              <div className="w-10 rounded-full " title={user?.displayName || 'User name not found'}>
+                  <img className="" src={user?.photoURL? user.photoURL : "https://cdn-icons-png.flaticon.com/512/219/219986.png" } />
               </div>
           </label>
           <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1000] p-2 shadow bg-base-100 rounded-box w-52">

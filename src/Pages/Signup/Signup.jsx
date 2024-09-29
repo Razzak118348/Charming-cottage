@@ -14,16 +14,10 @@ const Signup = () => {
   const { creatUser,
     updateUserProfile } = useAuth();
 
-  // const notify =()=>{
-  //   toast.success("Successfully SignUp",{
-  //     position:"top-right"
-  //   })
-  // }
 
   const {
     register,
     handleSubmit,
-    watch,
     formState: { errors },
   } = useForm()
 
@@ -97,7 +91,7 @@ if(!PasswordValidation(password)){
       {/* signup form  */}
       <div className="mt-10  p-3 rounded-2xl ">
 
-        <div className="popin-font  md:mt-8 mb-10 lg:mx-80 lg:my-40 bg-[#FFFFFF] border border-green-300 text-center  rounded-xl">
+        <div className="popin-font mt-8 mb-10 lg:mx-80  bg-[#FFFFFF] border border-green-300 text-center  rounded-xl">
           <h2 className="text-xl md:text-4xl font-semibold text-[rgb(64,63,63)] mt-9">Please Register </h2>
 
           <hr className="mt-8" />

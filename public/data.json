@@ -82,8 +82,10 @@
         ],
         "image": "/studenthouse.jpg",
         "view_property_button": "View Property",
-        "contacts": [
-            { "address": "654 University Avenue, Campus Area", "phone": "(555) 456-7890" },
+        "contacts": [{
+                "address": "654 University Avenue, Campus Area",
+                "phone": "(555) 456-7890"
+            },
             { "address": "987 Elm Street, Campus Area", "phone": "(555) 098-7654" }
         ]
     },
@@ -104,9 +106,14 @@
         ],
         "image": "/seniorLiving.jpg",
         "view_property_button": "View Property",
-        "contacts": [
-            { "address": "321 Senior Lane, Retirement Village", "phone": "(555) 567-8901" },
-            { "address": "987 Elder Street, Retirement Village", "phone": "(555) 109-8765" }
+        "contacts": [{
+                "address": "321 Senior Lane, Retirement Village",
+                "phone": "(555) 567-8901"
+            },
+            {
+                "address": "987 Elder Street, Retirement Village",
+                "phone": "(555) 109-8765"
+            }
         ]
     },
     {

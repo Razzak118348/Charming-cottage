@@ -17,19 +17,19 @@ const SocialLogin = () => {
             })
         }
     return (
-        <div className="flex justify-center items-center space-x-3">
+        <div className="flex justify-center  items-center space-x-3 ">
 
 
 
 <button
           onClick={() => handleSocialMedialLogin(googleLogin)}
-          className="btn btn-primary btn-sm btn-outline w-56"
+          className="btn btn-primary btn-sm btn-outline w-32 md:w-56 "
         >
         Login with  Google
         </button>
         <button
           onClick={() => handleSocialMedialLogin(gitHubLogin)}
-          className="btn btn-secondary btn-sm btn-outline w-56"
+          className="btn btn-secondary btn-sm btn-outline w-32 md:w-56"
         >
        Login with   Github
         </button>

@@ -58,10 +58,10 @@ toast.error("Password or Email Invalid",{position:'top-right'})
       <ToastContainer autoClose={500}></ToastContainer>
 
       <div className="  p-3 rounded-2xl  ">
-        <div className="popin-font mt-10 md:mt-8 mb-10 lg:mx-80 lg:my-40 bg-[#FFFFFF] border border-green-300 text-center  rounded-xl">
+        <div className="popin-font mt-10  mb-10 lg:mx-80  bg-[#FFFFFF] border border-green-300 text-center  rounded-xl">
           <h2 className="text-2xl md:text-4xl font-bold text-[rgb(64,63,63)] mt-9">Please Login</h2>
 
-          <hr className="mt-8" />
+          <hr className="my-8" />
           <SocialLogin></SocialLogin>
           <div className="">
             <div className="hero-content flex-col ">

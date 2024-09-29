@@ -23,20 +23,20 @@ const About = () => {
             </div>
 
             <div className="bg-gradient-to-b from-gray-200 to-gray-100 mb-10 m-8 rounded-xl md:flex  ">
-                <div className="p-8">
+                <div className="p-8 w-full md:w-[50vw]">
                     <h3 className="text-3xl font-bold "> Vision</h3>
                     <p>Each well-appointed bedroom is designed with your comfort in mind, offering a tranquil retreat after a busy day. The apartment also features [number of bathrooms] bathrooms, each showcasing contemporary fixtures.</p>
                     <h3 className="text-3xl font-bold mt-8">Mission</h3>
                     <p>Our one and only mission is Customers satisfaction . Our team all time try to get customers feedback and their require . We serve our best .</p>
                 </div>
-                <div className="p-8">
-                    <img className="rounded-xl shadow-lg shadow-slate-600" src="/signleF.jpg" alt="single family" />
+                <div className="p-8 animate__animated animate__fadeInRight">
+                    <img className="rounded-xl shadow-lg shadow-slate-600 h-96 w-full md:w-[50vw]" src="/signleF.jpg" alt="single family" />
                 </div>
             </div>
 
             <div className="m-8">
 <h2 className="text-3xl font-bold my-3">Professional Team </h2>
-<p className="mb-4 mr-10 md:mr-40 ">Each well-appointed bedroom is designed with your comfort in mind,
+<p className="mb-4 w-full md:w-[40vw] ">Each well-appointed bedroom is designed with your comfort in mind,
 offering a tranquil retreat after a busy day. The apartment also features.</p>
 
 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10  ">

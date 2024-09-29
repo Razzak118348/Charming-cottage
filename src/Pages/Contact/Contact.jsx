@@ -39,7 +39,7 @@ const Contact = () => {
                 </div>
 
             </form>
-            <div className=" mt-10 lg:mt-36 animate__animated animate__backInRight  ">
+            <div className=" mt-10 lg:mt-36 animate__animated animate__backInRight  px-5">
                 <h2 className="text-3xl lg:text-6xl font-bold  mt-5 ">Get In Touch With us </h2>
                 <p className=" my-3 ">We are gratefull to you to contact with us.</p>
                 <div className="link link-hover flex text-lg space-x-3"><IoMdCall className="w-10 h-10 mr-4 text-yellow-500 my-5"></IoMdCall><div><p className="text-xl font-bold">Office Number</p><p>01521752249</p></div>

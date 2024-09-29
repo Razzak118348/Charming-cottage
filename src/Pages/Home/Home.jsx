@@ -61,41 +61,41 @@ const Home = () => {
                     </div>
                 </div>
 
-<div className="flex justify-center ">
-<div className="bg-gradient-to-b from-gray-200 to-gray-50 rounded-lg  w-full md:w-3/4">
-                    <div className="text-center mb-5 animate__animated animate__fadeInUp">
-                        <p className=" w-full lg:w-1/2 mx-auto  font-medium text-lg p-5"> At Charming Cottage, we understand that finding the right property is a significant decision. That’s why our consultation system is designed to offer personalized guidance every step of the way. Whether you're buying, selling, or renting, our experienced team is here to help you make informed decisions. </p>
-                    <p className=" font-bold text-lg">
-                        Abdur Razzak
-                    </p>
-                    <p>CEO of Carming Cottage</p>
-                    </div>
+                <div className="flex justify-center ">
+                    <div className="bg-gradient-to-b from-gray-200 to-gray-50 rounded-lg  w-full md:w-3/4">
+                        <div className="text-center mb-5 animate__animated animate__fadeInUp">
+                            <p className=" w-full lg:w-1/2 mx-auto  font-medium text-lg p-5"> At Charming Cottage, we understand that finding the right property is a significant decision. That’s why our consultation system is designed to offer personalized guidance every step of the way. Whether you're buying, selling, or renting, our experienced team is here to help you make informed decisions. </p>
+                            <p className=" font-bold text-lg">
+                                Abdur Razzak
+                            </p>
+                            <p>CEO of Carming Cottage</p>
+                        </div>
 
-                    <div className="flex justify-center mb-10">
+                        <div className="flex justify-center mb-10">
 
-                        <div className="p-6 bg-gray-300
+                            <div className="p-6 bg-gray-300
                         m-3 rounded-lg animate__animated animate__backInLeft">
-                            <p className="text-gray-600">CONSULTATION</p>
-                            <p>
-                                Find the best Price for you  and calculate the property now.
-                            </p>
-                            <Link to={'/contact'}><button className="flex p-2 text-lg">Calculate <FaArrowRight className="mt-1 ml-2"></FaArrowRight></button></Link>
+                                <p className="text-gray-600">CONSULTATION</p>
+                                <p>
+                                    Find the best Price for you  and calculate the property now.
+                                </p>
+                                <Link to={'/contact'}><button className="flex p-2 text-lg">Calculate <FaArrowRight className="mt-1 ml-2"></FaArrowRight></button></Link>
 
-                        </div>
-                        <div className="p-6 bg-gray-300
+                            </div>
+                            <div className="p-6 bg-gray-300
                         m-3 rounded-lg animate__animated animate__backInRight">
-                            <p className="text-gray-600">CONSULTATION</p>
-                            <p>
-                                We are ready to help,consult your property option with us.
-                            </p>
-                            <Link to={'/contact'}><button className="flex p-2 text-lg">Chat with us <FaArrowRight className="mt-1 ml-2"></FaArrowRight></button></Link>
+                                <p className="text-gray-600">CONSULTATION</p>
+                                <p>
+                                    We are ready to help,consult your property option with us.
+                                </p>
+                                <Link to={'/contact'}><button className="flex p-2 text-lg">Chat with us <FaArrowRight className="mt-1 ml-2"></FaArrowRight></button></Link>
+                            </div>
+
+
+
                         </div>
-
-
-
                     </div>
                 </div>
-</div>
 
             </div>
 

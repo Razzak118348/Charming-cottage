@@ -1,0 +1,30 @@
+[{
+        "id": "0",
+        "category_name": "All"
+
+    },
+    {
+        "id": "1",
+        "category_name": "Single-family homes"
+    },
+    {
+        "id": "2",
+        "category_name": "Townhouses"
+    },
+    {
+        "id": "3",
+        "category_name": "Apartments"
+    },
+    {
+        "id": "4",
+        "category_name": "Student housing"
+    },
+    {
+        "id": "5",
+        "category_name": "Senior living communities"
+    },
+    {
+        "id": "6",
+        "category_name": "Vacation rentals"
+    }
+]
