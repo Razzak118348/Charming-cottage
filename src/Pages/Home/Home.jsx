@@ -4,12 +4,12 @@ import Banner from "../../Components/Banner/Banner";
 import HowItsWork from "../../Components/HowItsWork/HowItsWork";
 import PopulerListing from "../../Components/PopulerListing/PopulerListing";
 import { FaArrowRight } from "react-icons/fa";
-import useAuth from "../../hooks/useAuth";
+
 import CountUp from "react-countup";
 
 
 const Home = () => {
-    const { loading } = useAuth()
+
 
     const data = useLoaderData()
 
@@ -54,8 +54,8 @@ const Home = () => {
                     <div className="flex justify-center items-center ">
                         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 animate__animated animate__slideInUp">
                             <div><h3 className="text-4xl font-bold text-yellow-500"><CountUp end={500} duration={1} />M+</h3><p className="text-gray-500"> Property Sales</p></div>
-                            <div><h3 className="text-4xl font-bold text-yellow-500"><CountUp end={48525} duration={3} /></h3><p className="text-gray-500">Property Rent</p></div>
-                            <div><h3 className="text-4xl font-bold text-yellow-500"><CountUp end={15789} duration={15} /></h3><p className="text-gray-500">Single House sales</p></div>
+                            <div><h3 className="text-4xl font-bold text-yellow-500"><CountUp end={48525} duration={1} /></h3><p className="text-gray-500">Property Rent</p></div>
+                            <div><h3 className="text-4xl font-bold text-yellow-500"><CountUp end={15789} duration={5} /></h3><p className="text-gray-500">Single House sales</p></div>
                             <div><h3 className="text-4xl font-bold text-yellow-500"><CountUp end={5987} duration={1} /></h3><p className="text-gray-500"> Recently sold</p></div>
                         </div>
                     </div>

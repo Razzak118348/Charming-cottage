@@ -38,13 +38,14 @@ setSelectionCottage(FilterCottage);
 <img className="h-56 w-full rounded-b-3xl " src="/home2.jpg" alt="" />
 <h1 className="text-3xl md:text-6xl font-bold  ml-10 text-white animate__animated animate__fadeInRight -mt-36  ">All Listing here</h1>
 
-<div className="mt-36 mb-10 ml-10 grid grid-cols-3 md:grid-cols-6">
+<div className="mt-36 mb-10 ml-10 grid grid-cols-3 md:grid-cols-4 w-auto lg:w-3/4">
 
 {
     category.map((singleCategory)=>{
 
        return (
             <button
+            className="bg-gray-400 mx-2 my-3 p-2 rounded-lg hover:bg-yellow-500 font-semibold"
         onClick={()=>{handleButton(singleCategory.category_name)}}
 key={singleCategory.id}
         >

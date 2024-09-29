@@ -16,7 +16,7 @@ location,
         facilities,
         }=eachProperty
     return (
-        <div className="card bg-gray-100 w-full h-auto shadow-xl popin-font  md:ml-5 animate__animated animate__backInUp animate__delay-1s ">
+        <div className="card bg-gray-100 w-full h-auto shadow-xl popin-font  md:ml-5 animate__animated animate__backInUp  ">
         <figure className="">
           <img
           className="w-full h-80 md:h-56 rounded-lg"

@@ -9,10 +9,12 @@ import {
   signInWithEmailAndPassword,
   signInWithPopup,
   signOut,
+  updateEmail,
   updateProfile,
 } from "firebase/auth";
 import { getAuth } from "firebase/auth";
 import app from "../Firebase/Firebase.config";
+
 
 export const AuthContext = createContext(null);
 
@@ -31,13 +33,18 @@ const ContextApi = ({ children }) => {
     return createUserWithEmailAndPassword(auth, email, password);
   };
 
-  //update user profile
+  //update user profile =>signup
   const updateUserProfile = (name, Image) => {
     return updateProfile(auth.currentUser, {
       displayName: name,
       photoURL: Image,
     });
   };
+
+//   //update email=>profile
+// const EmailUpdate =(user,email)=>{
+//   return updateEmail(auth.user,email)
+// }
 
   //sign in user
   const SignInUser = (email, password) => {
@@ -60,6 +67,7 @@ const gitHubLogin =()=>{
     const unSubscribe = onAuthStateChanged(auth, (currentUser) => {
       setUser(currentUser);
       setLoading(false);
+
     });
     return () => {
       unSubscribe();
@@ -72,6 +80,7 @@ const gitHubLogin =()=>{
     //first of all user null korte hobe
     setUser(null);
     signOut(auth);
+
   };
 
   const authInfo = {
@@ -82,7 +91,8 @@ const gitHubLogin =()=>{
     LogOut,
     loading,
     googleLogin,
-    gitHubLogin
+    gitHubLogin,
+
   };
 
   return (
